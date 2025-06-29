@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+    <!-- LINKS FOR FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- LINKS FOR ICONS using font awesome-->
+    <script src="https://kit.fontawesome.com/2d358218cd.js" crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+
+    <main> <!-- taking whole web page as main and dividing into two section one is left and other is right -->
+        <section class="left">
+            <div class="profile">
+                <!-- image used using vecteezy  -->
+                <div class="profile-image">
+
+                    <img src="vecteezy_young-boy-face-illustration-design_9280299-1.jpg" alt="Image not found"
+                        title="shivam">
+
+                </div>
+                <div class="profile-p">
+                    <p>Shivam Yadav</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="navbar">
+                <div class="nav">
+                    <!-- icons used from font awesome -->
+                    <i class="fa-solid fa-bars"></i>
+                    <a href="#dashboard">Dashboard</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-regular fa-folder"></i>
+                    <a href="#data">Data</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#users">Users</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <a href="#schedule">Schedule</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="#contact">Contact</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- this is the right section starting -->
+        <section class="right">
+            <header>
+                <h1>Dashboard</h1>
+                <input placeholder="Search......" />
+            </header>
+            <article id="dashboard">
+
+                <div>
+                    <h2>Activities</h2>
+                    <p>May - June 2024</p>
+                </div>
+                <div>
+                    <img src="BarGraph.png" alt="image not found" title="BarGraph" />
+                </div>
+
+            </article>
+
+            <!-- this is dashboard data interaction section -->
+            <article id="data">
+                <div>
+                    <h2>DASHBOARD DATA</h2>
+                </div>
+                <div class="card-con">
+                    <!-- used two class one is for general desining like width and height and one is for personal changes in each card -->
+                    <div class="card1 card">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="cardHead">Total Revenue</p>
+                        <p class="cardPrice">$456,789,23</p>
+                    </div>
+
+                    <div class="card2 card">
+                        <i class="fa-solid fa-tag"></i>
+                        <p class="cardHead">Total Deals</p>
+                        <p class="cardPrice">1,459</p>
+                    </div>
+
+
+                    <div class="card3 card">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p class="cardHead">Total Likes</p>
+                        <p class="cardPrice">1,234</p>
+                    </div>
+
+                    <div class="card4 card">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="cardHead">Total Users</p>
+                        <p class="cardPrice">2,349</p>
+                    </div>
+
+
+                </div>
+
+
+            </article>
+
+            <!-- users interation section -->
+            <article id="users">
+                <div>
+                    <h2>USER INTERACTIONS</h2>
+                </div>
+
+                <table class="data">
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Number of Users</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>1000</td>
+                        </tr>
+
+                        <tr>
+                            <td>February</td>
+                            <td>1200</td>
+                        </tr>
+
+                        <tr>
+                            <td>March</td>
+                            <td>1500</td>
+                        </tr>
+
+                        <tr>
+                            <td>April</td>
+                            <td>1250</td>
+                        </tr>
+
+                        <tr>
+                            <td>May</td>
+                            <td>1600</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+
+            </article>
+
+            <!-- schedule section -->
+            <article id="schedule">
+                <div class="schedule-head">
+                    <h2>TODAY'S SCHEDULE</h2>
+                    <p>SEE ALL</p>
+                </div>
+
+                <div class="schedule-data">
+                    <div class="meetings">
+                        <h3>INTRODUCTION SESSION</h3>
+                        <p>8:00 - 9:00</p>
+                        <p>CLASS AT LT11</p>
+
+                    </div>
+
+                    <div class="meetings">
+                        <h3>FUNDAMENTAL OF COMPUTERS AND EMERGING TECHNOLOGIES</h3>
+                        <p>9:00 - 10:00</p>
+                        <p>CLASS AT LT11</p>
+
+                    </div>
+
+                    <div class="meetings">
+                        <h3>DISCREATE MATHEMATICS</h3>
+                        <p>10:00 - 11:00</p>
+                        <p>CLASS AT LT11</p>
+
+                    </div>
+
+                    <div class="meetings">
+                        <h3>PRINCIPLES AND MANAGEMENT OF COMMUNICATION</h3>
+                        <p>12:00 - 13:00</p>
+                        <p>CLASS AT COMMUNICATION LAB</p>
+
+                    </div>
+
+                    <div class="meetings">
+                        <h3>PROBLEM SOLVING WITH C CLASS</h3>
+                        <p>14:00 - 15:00</p>
+                        <p>CLASS AT LT11</p>
+
+                    </div>
+
+                    <div class="meetings">
+                        <h3>MEETING SENIORS</h3>
+                        <p>15:00 - 16:00</p>
+                        <P>AT COLLEGE PLAYGROUND</P>
+                    </div>
+
+                    <div class="meetings">
+                        <h3>RUN of 5KM</h3>
+                        <p>17:00 - 18:00</p>
+                        <P>AT ARJUNA PARK</P>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- contact-section -->
+            <article id="contact">
+
+                <h2>CONTACT DETAILS</h2>
+
+                <div class="contact-body">
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.495133968289!2d80.94003457494763!3d26.919513459799166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399957c12f7e45a1%3A0xc65b5a0dc770faf5!2sSakchi%20Boys%20Hostel%20and%20Mess!5e0!3m2!1sen!2sin!4v1727612315695!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="form-body">
+                        <form action="#" method="post">
+                            <h3>FEEDBACK</h3>
+
+                            <input type="text" name="first name" placeholder="Your Name" required />
+                            <br />
+
+
+                            <input type="email" id="email" name="email" placeholder="Your Email" required />
+
+                            <br />
+
+                            <textarea rows="20" cols="70" required>Your Textarea......</textarea>
+                            <br />
+
+                            <input type="submit" value="SUBMIT FEEDBACK" />
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+            </article>
+            <!-- the footer section -->
+            <footer>
+                <div class="link">
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                </div>
+                <div>
+                    <p>&copy; 2024 Shivam Yadav. All Rights Reserved</p>
+                </div>
+            </footer>
+        </section>
+    </main>
+
+
+</body>
+
+</html>
